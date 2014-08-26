@@ -58,7 +58,6 @@ textarea {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -236px;
 }
 
 .navbar {
@@ -88,16 +87,65 @@ textarea {
   margin-left: 0;
 }
 
+.content.justified {
+  text-align: justify;
+}
 
+.about .quote {
+  position: relative;
+  text-align: center;
+  padding-top: 220px;
+  font-family: "Times New Roman", serif;
+  font-weight: 300;
+  color: #717171;
+  font-size: 2em;
+  width: 80%;
+  font-style: italic;
+  margin: 40px auto 80px auto;
+}
 
+.about header {
+  display: none;
+}
 
+.about .quote:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-image: url(http://placehold.it/160x160);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: -80px;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
 
+.about td, .about th {
+  padding: 5px 20px;
+}
 
+.about table img {
+  width: auto;
+  height: auto;
+}
 
+.about .team.row {
+  margin-top: 40px;
+}
+
+.about .team.row img {
+  display: block;
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
 
 
 footer {
   display: block;
+  margin-top: 40px;
   padding: 40px 0;
   background: white;
 }
