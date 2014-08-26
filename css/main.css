@@ -91,6 +91,27 @@ textarea {
   text-align: justify;
 }
 
+.questions {
+  float: right;
+  margin-left: 60px;
+  margin-bottom: 60px;
+  padding: 0;
+  list-style: none;
+}
+
+.questions li a {
+  color: rgba(0,0,0,.6);
+}
+
+.questions li:first-child h4 {
+  margin-top: 0;
+}
+
+.questions li h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .about .quote {
   position: relative;
   text-align: center;
