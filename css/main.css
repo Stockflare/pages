@@ -200,7 +200,9 @@ footer .links li:first-child {
   margin-left: 0;
 }
 
-
+footer .reuters {
+  text-align: right;
+}
 
 
 
