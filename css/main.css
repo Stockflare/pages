@@ -112,7 +112,11 @@ textarea {
   margin-bottom: 20px;
 }
 
-.about .quote {
+.about header {
+  display: none;
+}
+
+.quote {
   position: relative;
   text-align: center;
   padding-top: 220px;
@@ -122,25 +126,76 @@ textarea {
   font-size: 2em;
   width: 80%;
   font-style: italic;
-  margin: 40px auto 80px auto;
+  margin: 40px auto;
+  padding-bottom: 100px;
 }
 
-.about header {
-  display: none;
-}
-
-.about .quote:after {
+.quote:after {
   content: '';
   position: absolute;
   top: 0;
   left: 50%;
-  background-image: url(http://placehold.it/160x160);
   background-repeat: no-repeat;
   background-position: center center;
   margin-left: -80px;
   width: 160px;
   height: 160px;
   border-radius: 80px;
+}
+
+.quote:before {
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  text-transform:uppercase;
+  color: rgba(0, 0, 0, .5);
+  font-size: 18px;
+  padding-bottom: 40px;
+  font-style: normal;
+}
+
+.shane.quote:after {
+  background-image: url(http://placehold.it/160x160);
+}
+
+.shane.quote:before {
+  content: 'Shane Leonard (CEO)';
+}
+
+.david.quote:after {
+  background-image: url(http://placehold.it/160x160);
+}
+
+.david.quote:before {
+  content: 'David Kelley';
+}
+
+.jobs .intro .job-benefits {
+  padding-left: 14px;
+  color: #018afd;
+}
+
+.jobs .intro .job-benefits li:first-child {
+  margin-top: 0;
+}
+
+.jobs .intro .job-benefits li {
+  margin-top: 8px;
+}
+
+.jobs .team-photo {
+  overflow: hidden;
+  margin: 40px 0;
+  height: 400px;
+}
+
+.jobs .team-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 
 .about td, .about th {

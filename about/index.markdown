@@ -4,7 +4,7 @@ hidePageTitle: true
 classes: about
 title:  "About"
 ---
-<h1 class="quote">&ldquo;At Stockflare we want everyone to realise that investing is simple. So why pay big fees to Wall Street, when your instinct is just as good as theirs?&rdquo;</h1>
+<h1 class="shane quote">&ldquo;At Stockflare we want everyone to realise that investing is simple. So why pay big fees to Wall Street, when your instinct is just as good as theirs?&rdquo;</h1>
 
 
 | Who we are        | What we do           | Why we do it  |
