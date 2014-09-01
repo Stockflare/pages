@@ -6,7 +6,7 @@ title:  "Jobs at Stockflare"
 ---
 
 <div class="team-photo">
-  <img src="http://placehold.it/1140x400" alt="Our Team" title="Our Team" />
+  <img src="/images/team-together.png" alt="Our Team" title="Our Team" />
 </div>
 
 <div class="intro row">
@@ -40,25 +40,9 @@ title:  "Jobs at Stockflare"
 ---
 
 <div class="row">
-  <div class="col-md-4 col-md-offset-4">
-    <h3>Requirements</h3>
-    <ul>
-      <li>Strong spoken and written English skills</li>
-      <li>You are a human being. Not a meat popsicle.</li>
-      <li>An active Github/Bitbucket profile</li>
-      <li>At least one accepted open source contribution</li>
-      <li>Deep understanding of Ruby and Javascript</li>
-      <li>An understanding of Docker, Memcached, Cassandra & AWS</li>
-    </ul>
-  </div>
-</div>
 
----
-
-<div class="row">
-
-  <div class="col-md-6">
-    <h4>What we expect from you</h4>
+  <div class="col-md-4">
+    <h5>What we expect from you</h5>
     <ul>
       <li>A passion for development and a curiosity for exploring new technologies.</li>
       <li>An interest in learning new languages and living outside your comfort zone.</li>
@@ -72,8 +56,8 @@ title:  "Jobs at Stockflare"
     </ul>
   </div>
 
-  <div class="col-md-6">
-    <h4>What to expect from us</h4>
+  <div class="col-md-4">
+    <h5>What to expect from us</h5>
     <ul>
       <li>Freedom to work full-time, wherever and whenever you want to</li>
       <li>An objective-based schedule</li>
@@ -82,8 +66,20 @@ title:  "Jobs at Stockflare"
     </ul>
   </div>
 
-</div>
+  <div class="col-md-4">
+    <h5>Requirements</h5>
+    <ul>
+      <li>Strong spoken and written English skills</li>
+      <li>You are a human being. Not a meat popsicle.</li>
+      <li>An active Github/Bitbucket profile</li>
+      <li>At least one accepted open source contribution</li>
+      <li>Deep understanding of Ruby and Javascript</li>
+      <li>An understanding of Docker, Memcached, Cassandra & AWS</li>
+    </ul>
+  </div>
 
+</div>
+---
 <div class="row">
 
   <div class="col-md-12">

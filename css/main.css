@@ -3,16 +3,39 @@ html {
     font-size: 1em;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1;
+    -webkit-font-smoothing: antialiased;
 }
 
 html, body {
   height: 100%;
-  background-color: #eef1f4;
+  background-color: #fff;
 }
 
 a {
   color: #515151;
   text-decoration: none;
+}
+
+p
+{
+  font-size: 16px;
+color: #72777e;
+line-height: 28px;
+
+}
+
+h1, h2
+{
+  font-weight: 300;
+  padding:10px 0px;
+}
+
+
+
+h5
+{
+  font-size: 16px;
+
 }
 
 a:active, a:hover {
@@ -54,6 +77,17 @@ textarea {
     padding: 0.2em 0;
 }
 
+ul li
+{
+    font-size: 16px;
+color: #72777e;
+}
+
+.navbar
+{
+  min-height: 60px;
+}
+
 #wrap {
   min-height: 100%;
   height: auto !important;
@@ -65,22 +99,30 @@ textarea {
   border-radius: 0;
   border-left: none;
   border-right: none;
+  background-image:none;
+  background:#FFF;
 }
 
 .row {
-  margin-top: 9px;
+  margin-top: 14px;
 }
 
 .menu {
   list-style: none;
   padding: 0;
-  padding-top: 5px;
+  padding-top: 2px;
   margin: 0;
 }
 
 .menu li {
   float: right;
   margin-left: 10%;
+}
+
+.menu li a
+{
+  font-weight: bold;
+  font-size: 13px;
 }
 
 .menu li:last-child {
@@ -120,14 +162,14 @@ textarea {
   position: relative;
   text-align: center;
   padding-top: 220px;
-  font-family: "Times New Roman", serif;
-  font-weight: 300;
-  color: #717171;
-  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  color: #313740;
+  font-size: 24px;
   width: 80%;
-  font-style: italic;
   margin: 40px auto;
   padding-bottom: 100px;
+  line-height: 44px;
 }
 
 .quote:after {
@@ -150,14 +192,17 @@ textarea {
   left: 0;
   text-align: center;
   text-transform:uppercase;
-  color: rgba(0, 0, 0, .5);
-  font-size: 18px;
+  color: rgba(0, 0, 0, .2);
+  font-size: 14px;
   padding-bottom: 40px;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
   font-style: normal;
 }
 
 .shane.quote:after {
-  background-image: url(http://placehold.it/160x160);
+  background-image: url('/images/team-shane.png');
+  background-size: 120%;
 }
 
 .shane.quote:before {
@@ -165,7 +210,8 @@ textarea {
 }
 
 .david.quote:after {
-  background-image: url(http://placehold.it/160x160);
+  background-image: url('/images/team-dave.png');
+  background-size: 117%;
 }
 
 .david.quote:before {
@@ -198,9 +244,19 @@ textarea {
   margin: auto;
 }
 
+.about th
+{
+    font-size: 22px;
+font-weight: 300;
+color:#31363F;
+}
+
 .about td, .about th {
   padding: 5px 20px;
+
 }
+
+
 
 .about table img {
   width: auto;
@@ -218,6 +274,59 @@ textarea {
   margin-bottom: 20px;
 }
 
+.job-cat
+{
+  color:#9ea4ad;
+}
+
+#our-team
+{
+  text-align: center;
+  padding:20px 0px;
+}
+
+
+.btn-contact .icon
+{
+  margin-right:20px;
+}
+
+.map .icon
+{
+  color:#3875f7;
+}
+
+.btn-contact
+{
+  text-align: center;
+  width:100%;
+  border:1px solid #ebebeb;
+  padding: 16px 13px;
+  color:#3875f7;
+  font-size:15px;
+  font-weight: 500;
+  -webkit-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:         all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin:10px 0px;
+}
+
+.btn-contact:hover
+{
+  background:#3875f7;
+  color:#fff;
+  border:0px;
+  border:1px solid #3875f7;
+}
+
+.map
+{
+  padding:80px 0px;
+}
+
+.heading
+{
+  padding:30px 0px;
+}
 
 footer {
   display: block;
@@ -251,6 +360,11 @@ footer .links li {
   margin-left: 20px;
 }
 
+footer .links li a
+{
+  color:#428bca
+}
+
 footer .links li:first-child {
   margin-left: 0;
 }
@@ -260,9 +374,25 @@ footer .reuters {
 }
 
 
+.picture
+{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.about td
+{
+    font-size: 16px;
+color: #72777e;
+line-height: 28px;
+
+}
 
 
-
+.center-text
+{
+  text-align: center;
+}
 
 
 /* ==========================================================================
