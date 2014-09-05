@@ -94,3 +94,7 @@ title:  "Jobs at Stockflare"
   </div>
 
 </div>
+
+---
+
+We **always** respond to applications, because its the just right thing to do. Thanks for getting in contact and we hope you’ll love what we do and how we do it. Welcome to Stockflare, a home for people with great ideas.
