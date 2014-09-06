@@ -80,7 +80,7 @@ textarea {
 ul li
 {
     font-size: 16px;
-color: #72777e;
+    color: #72777e;
 }
 
 .navbar
@@ -223,7 +223,7 @@ nav .row {
 }
 
 .shane.quote:after {
-  background-image: url('/images/team-shane.png');
+  background-image: url('/images/shane.jpg');
   background-size: 120%;
 }
 
