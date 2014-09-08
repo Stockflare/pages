@@ -8,7 +8,7 @@ title:  "Contact"
 <div class="row center-text">
 	<div class="col-md-12 heading">
 		<h1>Contacting Us</h1>
-		<p>This is a test passage explaining pretty much nothing, but Shane could put stuff in here</p>
+		<p>Please drop us a note and we'll get back to you as soon as possible</p>
 	</div>
 </div>
 
