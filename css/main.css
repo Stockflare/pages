@@ -11,6 +11,29 @@ html, body {
   background-color: #fff;
 }
 
+.logo-image {
+
+  display:block;
+
+  width: 139px;
+  height: 29px;
+
+  background-size: 139px 29px;
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+
+}
+
+@media (min-width: 1px) and (max-width: 992px) {
+  .logo-image { width: 15px; }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .logo-image { background-image: url(../images/logo@2x.png); }
+}
+
+
 a {
   color: #55a4f2;
   text-decoration: none;
@@ -149,6 +172,11 @@ nav .row {
 
 .menu li:last-child {
   margin-right: 0;
+}
+
+@media (min-width: 1px) and (max-width: 767px) {
+  .menu li.logo a { padding-right: 5px; }
+  .menu li a { padding: 19px 9px; }
 }
 
 .content.justified {
