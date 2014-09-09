@@ -176,7 +176,7 @@ nav .row {
   margin-bottom: 20px;
 }
 
-.about header {
+.about header, .contact header {
   display: none;
 }
 
@@ -264,6 +264,18 @@ nav .row {
   height: auto;
   display: block;
   margin: auto;
+}
+
+.jobs .requirements {
+  padding-left: 15px;
+}
+
+.jobs .requirements li {
+  margin-top: 10px;
+}
+
+.jobs .requirements li:first-child {
+  margin-top: 0px;
 }
 
 .about th

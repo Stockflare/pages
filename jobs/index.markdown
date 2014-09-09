@@ -13,12 +13,12 @@ title:  "Jobs at Stockflare"
 
   <div class="col-md-4">
     <h5>Why Join Us</h5>
-    <p>Interested in shaking up a industry? Banking, in particular. Fascinated by how companies and the stock exchange work? Our mission is to make it simple enough for anyone to understand. Are you a risk-taker? We are a startup, so the ride’s a rollercoaster.</p>
+    <p>Interested in shaking up an industry? Banking, in particular. Fascinated by how companies and the stock exchange work? Our mission is to make it simple enough for anyone to understand. Are you a risk-taker? We are a startup, so the ride’s a rollercoaster.</p>
   </div>
 
   <div class="col-md-4">
     <h5>Working @ Stockflare</h5>
-    <p>You don’t need a suit, MBA or have worked in Finance to work at Stockflare. A love for exploring and discovering new ideas is a must. Almost child-like. Then there’s all the usual stuff like not being an ass, stupid or a loud-mouth.</p>
+    <p>You don't need a suit, MBA or have worked in Finance to work at Stockflare. We encourage and nurture new ideas and technologies for solving problems, in one of the most data-intensive industries. We are always learning, evolving and never happy with the status quo.</p>
   </div>
 
   <div class="col-md-4">
@@ -43,7 +43,7 @@ title:  "Jobs at Stockflare"
 
   <div class="col-md-4">
     <h5>What we expect from you</h5>
-    <ul>
+    <ul class="requirements">
       <li>A passion for development and a curiosity for exploring new technologies.</li>
       <li>An interest in learning new languages and living outside your comfort zone.</li>
       <li>The ability to manage your time well and to complete objectives in a timely manner.</li>
@@ -58,18 +58,18 @@ title:  "Jobs at Stockflare"
 
   <div class="col-md-4">
     <h5>What to expect from us</h5>
-    <ul>
-      <li>Freedom to work full-time, wherever and whenever you want to</li>
-      <li>An objective-based schedule</li>
-      <li>Active encouragement to develop personal skills, try new technologies and contribute to other open source projects</li>
-      <li>Free stuff</li>
+    <ul class="requirements">
+      <li>Freedom to work full-time, wherever and whenever you want to.</li>
+      <li>An objective-based schedule.</li>
+      <li>Active encouragement to develop personal skills, try new technologies and contribute to other open source projects.</li>
+      <li>A budget to buy any software or gear that you need.</li>
     </ul>
   </div>
 
   <div class="col-md-4">
     <h5>Requirements</h5>
-    <ul>
-      <li>Strong spoken and written English skills</li>
+    <ul class="requirements">
+      <li>Strong spoken and written English skills.</li>
       <li>You are a human being. Not a meat popsicle.</li>
       <li>An active Github/Bitbucket profile</li>
       <li>At least one accepted open source contribution</li>

@@ -14,19 +14,19 @@ title:  "Contact"
 
 <div class="row">
 	<div class="col-md-4 col-md-offset-2">
-		<btn class="btn btn-contact"><i class="fa fa-envelope-o fa-lg icon"></i>&nbsp;info@stockflare.com</btn>
+		<a href="mailto:info@stockflare.com" class="btn btn-contact"><i class="fa fa-envelope-o fa-lg icon"></i>&nbsp;info@stockflare.com</a>
 	</div>
 	<div class="col-md-4">
-		<btn class="btn btn-contact"><i class="fa fa-phone fa-lg icon"></i>&nbsp;+44 20 3286 0905</btn>
+		<a href="call:+442032860905" class="btn btn-contact"><i class="fa fa-phone fa-lg icon"></i>&nbsp;+44 20 3286 0905</a>
 	</div>
 </div>
 
 <div class="row">
 	<div class="col-md-4 col-md-offset-2">
-		<btn class="btn btn-contact"><i class="fa fa-facebook-square fa-lg icon"></i>&nbsp;facebook.com/stockflare</btn>
+		<a href="https://www.facebook.com/stockflare" target="_blank" class="btn btn-contact"><i class="fa fa-facebook-square fa-lg icon"></i>&nbsp;facebook.com/stockflare</a>
 	</div>
 	<div class="col-md-4">
-		<btn class="btn btn-contact"><i class="fa fa-twitter fa-lg icon"></i>&nbsp;@stockflare</btn>
+		<a href="https://twitter.com/stockflare" target="_blank" class="btn btn-contact"><i class="fa fa-twitter fa-lg icon"></i>&nbsp;@stockflare</a>
 	</div>
 </div>
 
