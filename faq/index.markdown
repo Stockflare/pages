@@ -8,7 +8,7 @@ title:  "Frequently Asked Questions"
   <li><a href="#5-star-stock">What's a 5 star stock?</a></li>
   <li><a href="#what-is-a-watch-list">What is a watch list?</a></li>
   <li><a href="#registration-benefits">What is the benefit of registering?</a></li>
-  <li><a href="#what-are-filters">What are advanced & basic filters?</a></li>
+  <li><a href="#what-are-filters">What are filters?</a></li>
   <li><a href="#can-i-trade">Can I buy shares via Stockflare?</a></li>
   <li><a href="#are-some-numbers-wrong">Are some of your numbers wrong?</a></li>
   <li><a href="#connect-portfolio">Can I connect my real portfolio to Stockflare?</a></li>
@@ -56,15 +56,15 @@ Using these 5 filters, helps us identify the sort of companies we like. But we k
 
 <a class="faq-anchor" name="what-are-filters"></a>
 
-### What are advanced & basic filters?
+### What are filters?
 
 Filters help you find your favourite stocks.
 
 We use filters to calculate what we think are 5-star stocks. But anyone can run their own analysis to find their own stock ideas. In fact, that’s the whole aim of Stockflare.
 
-At our homepage, we start with basic filters. Once you’ve set your country, choose a few sectors you like, then think about the type of company you like. Filter to get results. And re-filter to hone your choices.
+At our homepage, choose the country you live in, a sector you like, then think about the type of company you like. Filter to get results. And re-filter to hone your choices.
 
-Advanced filters give you much greater control on the way you cut the information. You can select different countries, currencies, sectors, industries, different ways to value businesses, and look at whether the companies are loved or hated by Wall Street.
+You've a lot of control on the way you cut and re-cut the information. You can select different countries, currencies, sectors, industries, different ways to value businesses, and look at whether the companies are loved or hated by Wall Street.
 
 Give it a whirl and if you find a real gem that’s not a 5-star stock as we see it, please drop us a note. We love hearing great ideas.
 
