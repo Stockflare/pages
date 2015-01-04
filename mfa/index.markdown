@@ -28,6 +28,7 @@ __Stockflare will never charge for the usage of Multi-Factor Authentication.__
   <li><a href="#can-i-use-a-given-authentication">Can I use a given authentication code more than once?</a></li>
   <li><a href="#how-do-i-disable-mfa-for-my-stockflare-account">How do I disable MFA for my Stockflare account?</a></li>
   <li><a href="#i-accidentally-disabled-mfa">I accidentally disabled MFA, and now my virtual device is generating invalid codes?</a></li>
+  <li><a href="#i-lost-my-virtual-mfa-device">I lost my Virtual MFA Device</a></li>
 </ul>
 
 ---
@@ -146,3 +147,16 @@ MFA can be disabled, in the same manner it was enabled. From the [User Settings]
 
 ### I accidentally disabled MFA, and now my virtual device is generating invalid codes?
 When you disable MFA on your account, for security purposes a new "secret" is generated. When re-enabling MFA, you will need to re-capture the QR Code. If you no longer have access to your account, please contact [info@stockflare.com](info@stockflare.com).
+
+---
+
+<a class="faq" name="i-lost-my-virtual-mfa-device"></a>
+
+### I lost my Virtual MFA Device
+If you have lost your device, or have lost access to any authentication codes, you need to reset MFA for your Stockflare account.
+
+When MFA was first enabled, recovery codes were sent as an attachment to the email address associated with your Stockflare account. There are six, comma-separated recovery codes that you will need in order to reset MFA.
+
+[You can reset MFA for your account here](https://stockflare.com/mfa/reset), follow the instructions and enter your recovery codes when prompted.
+
+If you have lost your recovery codes, please email support@stockflare.com for further assistance.
