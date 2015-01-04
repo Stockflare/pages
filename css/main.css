@@ -183,12 +183,21 @@ nav .row {
   text-align: justify;
 }
 
+table {
+  width: 50%;
+}
+
 .questions {
   float: right;
   margin-left: 60px;
   margin-bottom: 60px;
   padding: 0;
   list-style: none;
+}
+
+.questions.block {
+  float: none;
+  margin: 40px 0;
 }
 
 .questions li a {
