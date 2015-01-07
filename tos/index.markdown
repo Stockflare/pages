@@ -4,10 +4,11 @@ classes: justified
 title:  "Terms of Service and Subscribe Agreement"
 ---
 
-*Updated on July  7, 2014*
+*Updated on January  7, 2015*
 
 This Terms of Service & Subscriber Agreement govern your use of our website, web application, mobile application, and unless other terms and conditions expressly govern, any other electronic services from Stockflare Limited that may be made available from time to time (each, a "Service").
-If you agree to be bound by the terms of this Agreement, you should check the box indicating your agreement to the terms of this Agreement on the registration page for the Service. If you do not agree to be bound by the terms of this Agreement, you should not check the box but you will not be able to proceed with the registration process for the respective Service and become a subscriber. To the extent you have access to, or are using, a Service without having completed our registration process, you are hereby notified that your continued use of a Service is subject to many of the terms and conditions of this Agreement as explained in Section 6 below.
+
+If you compete your registration to Stockflare you agree to be bound by the terms of this Agreement. If you do not agree to be bound by the terms of this Agreement, you should not proceed with the registration process or immediately delete your account and inform us. To the extent you have access to, or are using, a Service without having completed our registration process, you are hereby notified that your continued use of a Service is subject to many of the terms and conditions of this Agreement as explained in Section 7 below.
 
 ---
 
@@ -17,7 +18,7 @@ You agree that your access to, and use of, the Services and the content and tool
 ---
 
 ### 2. Changes to Subscriber Agreement.
-We may change the terms of this Agreement at any time by notifying you of the change in writing or electronically (including without limitation, by email or by posting a notice on the Service that the terms have been "updated" or similar words). The changes also will appear in this document, which you can access at any time by going to the Terms of Service link at a Service. You signify that you agree to be bound by such changes by using a Service after changes are made to this Agreement.
+We may change the terms of this Agreement at any time by notifying you of the change in writing or electronically (including without limitation, by email or by posting a notice on the Service that the terms have been "updated" or similar words including notification via a post on our blog). The changes also will appear in this document, which you can access at any time by going to the Terms of Service link at a Service. You signify that you agree to be bound by such changes by using a Service after changes are made to this Agreement.
 
 ---
 
@@ -148,18 +149,17 @@ We may link to, or promote, web sites or services from other companies or offer 
 
 ---
 
-### 11. Agreement to Arbitrate.
+### 11. Law and jurisdiction. 
 
-**11.1** The parties acknowledge that any statutory or common law claims related to intellectual property may require forms of equitable relief that are best administered by courts; accordingly, the parties agree that except for statutory or common law claims related to intellectual property and disputes that qualify for small claims court, any controversy or claim arising out of or relating to this Agreement or any aspect of the relationship between us, whether based in contract, tort, statute, fraud, misrepresentation or any other legal theory, will be resolved by arbitration administered by the American Arbitration Association ("AAA") in accordance with its Commercial Arbitration Rules and the Supplementary Procedures for Consumer Related Disputes. Judgment on the award rendered by the arbitrator may be entered in any federal or state court of competent jurisdiction located in the County of New York in the State of New York shall constitute a court of competent jurisdiction. For more information about arbitration, the AAA and the arbitration process, please consult the American Arbitration Association web site, You agree that by entering into this Agreement, you and we are each waiving the right to trial by jury, except as otherwise stated above. Any arbitration under this Agreement will take place on an individual basis; class arbitrations and class actions are not permitted and, by entering into this Agreement, you are giving up the ability to participate in a class action. All issues are for the arbitrator to decide, except that issues relating to the scope, application, and enforceability of the arbitration provision are for the court to decide. As stated in Section 11 below, New York law applies to any arbitration under this section, but the parties acknowledge that the Federal Arbitration Act governs the interpretation and enforcement of this provision. This agreement to arbitrate shall survive termination of this Agreement. This arbitration agreement does not preclude you from bringing issues to the attention of federal, state, or local agencies, and, if the law allows, they can seek relief against us for you.
-
-**11.2** Unless you and we agree otherwise, the arbitration will take place either in the subscriber's county of principal residence or the County of New York in the State of New York. For claims of $10,000 or less, you can choose whether you would like arbitration carried out based only on documents submitted to the arbitrator, or by a hearing in person, or by phone.
-
-**11.3** The arbitrator may award money or equitable relief in favor of only the individual party seeking relief and only to the extent necessary to provide relief warranted by that party's individual claim. To reduce the time and expense of the arbitration, the arbitrator will not provide a statement of reasons for his or her award unless requested to do so by both parties. Unless both you and we agree otherwise, the arbitrator may not consolidate more than one person's claims, and may not otherwise preside over any form of a representative or class proceeding.
+This Agreement will be exclusively governed by and construed in accordance with the laws of England and Wales whose courts will have exclusive jurisdiction in any dispute save that Stockflare Limited has the right, at its sole discretion, to commence and pursue proceedings in alternative jurisdictions.
 
 ---
 
 ### 12. General.
-This Agreement contains the final and entire agreement between us regarding your use of the Services and supersedes all previous and contemporaneous oral or written agreements regarding your use of the Services. We may discontinue or change the Services, or their availability to you, at any time. This Agreement is personal to you, which means that you may not assign your rights or obligations under this Agreement to anyone. No third party is a beneficiary of this Agreement. You agree that this Agreement, as well as any and all claims arising from this Agreement will be governed by and construed in accordance with the laws of the State of New York, United States of America, without regard to any conflict or choice of law principles. For all litigation which may be brought, subject to the requirements for arbitration hereunder, with respect to any controversy or claim, arising out of or relating to this Agreement or any relationship between us, the sole jurisdiction and venue for such litigation will be an appropriate federal or state court located in the County of New York in the State of New York. This Agreement will not be governed by the United Nations Convention on Contracts for the International Sale of Goods.
+
+**12.1** This Agreement contains the final and entire agreement between us regarding your use of the Services and supersedes all previous and contemporaneous oral or written agreements regarding your use of the Services. We may discontinue or change the Services, or their availability to you, at any time. This Agreement is personal to you, which means that you may not assign your rights or obligations under this Agreement to anyone. No third party is a beneficiary of this Agreement. 
+
+**12.2** This Agreement will not be governed by the United Nations Convention on Contracts for the International Sale of Goods.
 
 ---
 
@@ -198,5 +198,17 @@ The Services and Content are provided for informational purposes only. You under
 **15.2** Certain of our content, data and information providers require us to include additional terms and conditions relating to their content and data. These include:
 
 **15.2.1** Republication or redistribution of Thomson Reuters content, including by framing or similar means, is prohibited without the prior written consent of Thomson Reuters. Thomson Reuters is not liable for any errors or delays in Thomson Reuters content, or for any actions taken in reliance on such content. ‘Thomson Reuters’ and the Thomson Reuters logo are trademarks of Thomson Reuters and its affiliated companies. For additional information on other Thomson Reuters Services please visit the Thomson Reuters public web site http://www.thomsonreuters.com/.
+
+### 16. Change Log
+
+**16.1** We updated the Terms of Service on 7th January 2015, from a previous version dated 7th July 2014. The changes were:
+
+**16.1.1** In the preamble, we previously referred to registered users needing to tick a box confirming they agreed to our Terms. We removed this language and now inform users to not register or use the service, if they are unwilling to be bound by our Terms. 
+
+**16.1.2** In the preamble, corrected the reference to Section 7, which previously said Section 6.
+
+**16.1.3** Removed section 11 / Arbitration. Replaced with reference to English law
+
+**16.1.4** Removed reference to New York law.
 
 ©Copyright 2014 Stockflare Limited. All rights reserved.
