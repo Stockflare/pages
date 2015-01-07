@@ -121,7 +121,6 @@ Your subscription will renew automatically, unless it is cancelled in accordance
 
 **8.2.6.2** Written notification of claimed infringement must be submitted to the following Designated Agent:
 
-```
 By mail:
 Stockflare Copyright Agent,
 Stockflare Legal Department,
@@ -132,7 +131,6 @@ London W8 4SG,
 United Kingdom,
 Phone: (+44) 20 3286-0905,
 E-mail: copyright@stockflare.com
-```
 
 ---
 
