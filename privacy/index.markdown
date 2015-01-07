@@ -14,7 +14,7 @@ title:  "The Stockflare Privacy Policy"
 
 **1.2** This Privacy Policy applies to information we collect from all sources including in connection with our websites, mobile sites, applications (“apps”), electronic newsletters and widgets (collectively the “Services”) that link to this Privacy Policy.
 
-**1.3** This Policy describes Stockflare’s collection and use of users’; Personal Information. It also describes generally Stockflare’s practices for handling Other Information (e.g., interests, demographics and services usage) collected through our Services or from athird party to the extent such information is associated with a particular device, user or user account. By using the Services or by providing personal information to us, you agree to the terms and conditions of this Privacy Policy.
+**1.3** This Policy describes Stockflare’s collection and use of users’; Personal Information. It also describes generally Stockflare’s practices for handling Other Information (e.g., interests, demographics and services usage) collected through our Services or from a third party to the extent such information is associated with a particular device, user or user account. By using the Services or by providing personal information to us, you agree to the terms and conditions of this Privacy Policy.
 
 **1.4** Our Services are not targeted to children, and do not knowingly collect personal information from children under 14 years of age.
 
@@ -102,13 +102,15 @@ Subscribers and registered users can update their Personal Information online by
 
 **7.2** Location of Data. Your Personal Information may be stored and processed in any country where we have facilities or in which we engage service providers, and by using our products and services, you consent to the transfer of information to countries outside of your country of residence, including the United States, which may have different data protection rules than in your country.
 
-**7.3** Data Retention. We will retain your Personal Information for the period necessary to fulfill the purposes outlined in this Privacy Policy unless a longer retention period is required or allowed by law.
+**7.3** Data Protection. Your Personal Information is protected in the UK by the Data Protection Act 1998. This provides that the information which we hold about you should be processed fairly and lawfully, should be accurate, relevant and not excessive, not be retained for longer than is necessary and, if applicable, be kept up to date. For more information on the Data Protection Act 1998 and your related rights please see www.ico.gov.uk.
 
-**7.4** Collection of Personal Financial Information by a Payment Service. In some cases, we may use an unaffiliated payment service to allow you to purchase a product or make payments (“Payment Service”). If you wish to purchase a product or make a payment in such a case, you will be directed to a Payment Service webpage. Any information that you provide to a Payment Service will be subject to the applicable Payment Service’s privacy policy, rather than this Privacy Policy. We have no control over, and are not responsible for, any Payment Service’s use of information collected through any Payment Service.
+**7.4** Data Retention. We will retain your Personal Information for the period necessary to fulfill the purposes outlined in this Privacy Policy unless a longer retention period is required or allowed by law.
 
-**7.5** Linked Services. Our Services may also be linked to sites operated by third parties, and may carry advertisements or offer content, functionality, games or applications developed and maintained by third parties.
+**7.5** Collection of Personal Financial Information by a Payment Service. In some cases, we may use an unaffiliated payment service to allow you to purchase a product or make payments (“Payment Service”). If you wish to purchase a product or make a payment in such a case, you will be directed to a Payment Service webpage. Any information that you provide to a Payment Service will be subject to the applicable Payment Service’s privacy policy, rather than this Privacy Policy. We have no control over, and are not responsible for, any Payment Service’s use of information collected through any Payment Service.
 
-**7.6** Stockflare is not responsible for the privacy practices of any such third parties, and once you leave our Services or click an advertisement, you should check the applicable privacy policy of the other service.
+**7.6** Linked Services. Our Services may also be linked to sites operated by third parties, and may carry advertisements or offer content, functionality, games or applications developed and maintained by third parties.
+
+**7.7** Stockflare is not responsible for the privacy practices of any such third parties, and once you leave our Services or click an advertisement, you should check the applicable privacy policy of the other service.
 
 ---
 
