@@ -187,6 +187,10 @@ table {
   width: 50%;
 }
 
+.about table {
+  width: 100%;
+}
+
 .questions {
   float: right;
   margin-left: 60px;
