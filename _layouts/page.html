@@ -1,21 +1,19 @@
 ---
 layout: default
 ---
-<div class="page">
+<div id="page">
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 {{ page.classes }}">
-        <header class="post-header">
-          <h1>{{ page.title }}</h1>
-        </header>
-        <div class="content">
-          {{ content }}
-        </div>
-      </div>
-    </div>
+  <div class="small-xs-padding">
+    {%if page.subtitle %}
+    <h2 class="nested-text-dark micro-xs-bottom-margin">{{ page.title }}</h2>
+    <h6 class="text-bright">{{ page.subtitle }}</h6>
+    {% else %}
+    <h2 class="nested-text-dark micro-xs-bottom-margin">{{ page.title }}</h2>
+    {% endif %}
   </div>
 
-
+  <div class="{%if page.widget %}small-xs-left-margin widget small-xs-padding{% endif %} page-content small-xs-right-padding">
+    {{content}}
+  </div>
 
 </div>

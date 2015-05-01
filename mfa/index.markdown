@@ -1,5 +1,6 @@
 ---
 layout: page
+widget: true
 title:  "Multi-Factor Authentication"
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-classes: justified
+widget: true
 title:  "The Stockflare Privacy Policy"
 ---
 

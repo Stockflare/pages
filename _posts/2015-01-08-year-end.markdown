@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "30k+ users: full speed ahead"
+date:   2015-01-08 12:36:32
+categories: blog
+author: Shane Leonard
+image: http://i.imgur.com/NPiHlbq.gif
+---
+
+It's been an exciting 2014, with Stockflare launching at the end of September, and hitting a monthly user figure of over 32,000 users in December. 
+
+Here's what the last 3 months looked like. These are the user figures for each month. With nice reviews at [ProductHunt](http://www.producthunt.com/posts/stockflare), [DesignerNews](https://news.layervault.com/stories/40122-site-design-stockflares-new-landing-page), [Awwwards](http://www.awwwards.com/best-websites/stockflare/) and especially at [LifeHacker](http://twocents.lifehacker.com/stockflare-simplifies-stock-market-data-to-make-investi-1672035079) helping us reach lots of new users. 
+
+![User numbers](/images/user-numbers-Dec-2014.png "User numbers")
+
+Better still, if we look at the underlying statistics, in terms of sessions and pageviews we are really happy that:
+
+* Sessions are growing faster than users
+* Page views per session is growing
+* Time of the site is growing
+* And the bounce rate has declined dramatically
+
+![Usage Stats](/images/Detailed-Stats-Dec-2014.png "Usage Stats")
+
+The amazing cut in the bounce rate, is entirely driven by our [new landing page](https://stockflare.com/#landing). Please check it out and let us know what you think.
+
+![Landing Page](/images/Landing-page-Dec-2014.png "Landing Page")
+
+*Aside:* and if you are wondering what "Users (Without C Language)" means, that's went we exclude bots and crawlers from the statistics. We only care to help humans pick stocks, not computers even if they are algo-traders!
+
+Thanks again to everyone who's using Stockflare. Many of you sent feedback to us. We've added a lot of requests to our task list. We are planning lots of improvements. We really appreciate your help.
+
+We hope that 2015 will be a great year, personal and investing, for us all.
+
+Please drop me a message [@shaneleonard121](https://twitter.com/shaneleonard121) or message our full team [@stockflare](https://twitter.com/stockflare) if you need any help. 
+
+Shane Leonard, CFA
+
+Stockflare

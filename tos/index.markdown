@@ -1,6 +1,6 @@
 ---
 layout: page
-classes: justified
+widget: true
 title:  "Terms of Service and Subscribe Agreement"
 ---
 
@@ -147,7 +147,7 @@ We may link to, or promote, web sites or services from other companies or offer 
 
 ---
 
-### 11. Law and jurisdiction. 
+### 11. Law and jurisdiction.
 
 This Agreement will be exclusively governed by and construed in accordance with the laws of England and Wales whose courts will have exclusive jurisdiction in any dispute save that Stockflare Limited has the right, at its sole discretion, to commence and pursue proceedings in alternative jurisdictions.
 
@@ -155,7 +155,7 @@ This Agreement will be exclusively governed by and construed in accordance with 
 
 ### 12. General.
 
-**12.1** This Agreement contains the final and entire agreement between us regarding your use of the Services and supersedes all previous and contemporaneous oral or written agreements regarding your use of the Services. We may discontinue or change the Services, or their availability to you, at any time. This Agreement is personal to you, which means that you may not assign your rights or obligations under this Agreement to anyone. No third party is a beneficiary of this Agreement. 
+**12.1** This Agreement contains the final and entire agreement between us regarding your use of the Services and supersedes all previous and contemporaneous oral or written agreements regarding your use of the Services. We may discontinue or change the Services, or their availability to you, at any time. This Agreement is personal to you, which means that you may not assign your rights or obligations under this Agreement to anyone. No third party is a beneficiary of this Agreement.
 
 **12.2** This Agreement will not be governed by the United Nations Convention on Contracts for the International Sale of Goods.
 
@@ -201,7 +201,7 @@ The Services and Content are provided for informational purposes only. You under
 
 **16.1** We updated the Terms of Service on 7th January 2015, from a previous version dated 7th July 2014. The changes were:
 
-**16.1.1** In the preamble, we previously referred to registered users needing to tick a box confirming they agreed to our Terms. We removed this language and now inform users to not register or use the service, if they are unwilling to be bound by our Terms. 
+**16.1.1** In the preamble, we previously referred to registered users needing to tick a box confirming they agreed to our Terms. We removed this language and now inform users to not register or use the service, if they are unwilling to be bound by our Terms.
 
 **16.1.2** In the preamble, corrected the reference to Section 7, which previously said Section 6.
 

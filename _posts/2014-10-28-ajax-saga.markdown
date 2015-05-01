@@ -1,0 +1,155 @@
+---
+layout: post
+title:  "The Great Ajax SEO Saga"
+date:   2014-10-28 22:00:03
+categories: quote
+author: Mark Stratmann
+image: /images/google-crawler.png
+---
+
+# The great Ajax SEO Saga
+
+For the last couple of months I have been working on getting to the bottom of properly SEO optimising a site that is a fully Javascript front end.  We thought it would be a simple fun job which in the end has turned up some very interesting and at the time rather irritating facts.
+
+## Introduction
+
+The site itself is [Stockflare](https://stockflare.com/).  It is a stock analysis web site where we process market data and rate all stocks worldwide one to five stars (five being the best). 
+
+It is hosted on an Amazon S3 Bucket which essentially serves just the index.html, which in turn loads the UI Javascript (Backbone and Marionette).  The Backbone router then takes over and renders the appropriate page.
+
+So take the url
+`https://stockflare.com/stocks/WPP.L`
+
+This ends up at the S3 Bucket as
+
+`https://stockflare.com/#/stocks/WPP.L`
+
+It is the S3 routing rules that hash the path.
+
+The browser is served index.html and the Backbone router deals with the hash path.  Backbone also has Browser pushState enabled so the user sees a nice pretty path in their browser. 
+
+## escaped_fragment
+
+Google provide [handy notes](https://developers.google.com/webmasters/ajax-crawling/docs/specification) on how to make an AJAX site crawl-able and if you read thoroughly through the documentation it seems that all you need to do is:
+
+Add the tag `<meta name="fragment" content="!">` to the site and have a service that will accept requests like:
+
+`https://stockflare.com/?_escaped_fragment_=/stocks/WPP.L`
+
+And return the appropriate rendered HTML;
+
+Finally create a sitemap that contains the links to the pages we want to crawl.
+
+And all will be well.
+
+## Our initial strategy
+
+We created a small Node.js service using Phantom.js that would take the following:
+
+`https://seo.stockflare.com/?_escaped_fragment_=/stocks/WPP.L`
+
+It would transform the URL to 
+
+`https://stockflare.com/#/stocks/WPP.L`
+
+Use Phantom.JS to render the page and return the HTML in the response.
+
+The base of the service was the npm module [localnerve/html-snapshots](https://github.com/localnerve/html-snapshots)
+
+## First Problem Gzipped assets
+
+Everything in our S3 bucket is gzipped, Phantoms.js would simply not process it until we put.
+<code>
+page.customHeaders = {
+  "Content-Encoding": "gzip"
+};
+</code>
+in the `snapshotSingle.js` file.
+
+## Second problem HashBangs
+
+Regardless of the `<meta name="fragment" content="!">` tag Google will only `_escaped_fragment_` a link that is in the hash bang format.
+
+So
+
+`https://stockflare.com/#/stocks/WPP.L` will not be `_escaped_fragment_` crawled.
+while
+`https://stockflare.com/#!/stocks/WPP.L` will.
+
+The Backbone router does not handle hashing paths if you have pushState enabled.
+
+So our Backbone router ended up looking like this.
+<code>
+define([
+	'backbone',
+	'controllers/stock'
+],
+function( Backbone, StockController ) { <br>
+  'use strict';<br>
+	return Backbone.Marionette.AppRouter.extend({<br>
+		controller: StockController,<br>
+		appRoutes: {<br>
+			"": "index",<br>
+			"stocks/:ric": "show",<br>
+			"stocks/:ric/detail/:tab": "detail",<br>
+			"stocks/:ric/info/:tab": "info",<br>
+			"!/": "index",<br>
+			"!/stocks/:ric": "show",<br>
+			"!/stocks/:ric/detail/:tab": "detail",<br>
+			"!/stocks/:ric/info/:tab": "info",<br>
+			"search": "search",<br>
+			"filters": "filters"<br>
+		}
+	});
+});
+</code>
+
+Every route that needed to be ajax crawled is duplicated to support a route like this.
+
+`https://stockflare.com/!/stocks/WPP.L`
+
+Google is given the full `https://stockflare.com/#!/stocks/WPP.L` route in the sitemap.xml and the backbone router will automatically strip the hash, leaving just the bang to deal with.
+
+So when we finally get into the google index the links will look like `https://stockflare.com/#!/stocks/WPP.L` and still work for the user.
+
+## Third problem redirects
+
+When google crawls
+`http://stockflare.com/#!/stocks/WPP.L`
+it will be redirected to 
+`https://stockflare.com/#!/stocks/WPP.L`
+Google will then try to crawl
+`http://seo.stockflare.com/?_escaped_fragment_=/stocks/WPP.L`
+It will be redirected to 
+`https://seo.stockflare.com/?_escaped_fragment_=/stocks/WPP.L`
+
+For google to follow all the redirects you need all four sites set up individually in Google Webmaster tools.  That is separate entries for:
+* http://stockflare.com
+* https://stockflare.com
+* http://seo.stockflare.com
+* https://seo.stockflare.com
+
+## Fourth problem Robots.txt
+
+Google has finally followed all the redirects and is about to send the `https://seo.stockflare.com/?_escaped_fragment_=/stocks/WPP.L`.  But wait, what it first does is check to see if it should access the site `seo.stockflare.com` but requesting `seo.stockflare.com/robots.txt`.  Which of course our Phantom.js service does not provide. So Google gives up.
+
+The Phantom.js service is now changed so that it uses the AWS S3 SDK to fetch robots.txt from the `http://stockflare.com` bucket and serves it to Google as if it was its own.
+
+## Fifth Problem Link Crawling
+
+Ok so now we have Google finally doing everything and ending up at our Phantom.js service with a properly formed `_escaped_fragment_` request and Google gets a rendered HTML page.  It then looks over the page and finds a bunch of links.  It forgets that it is doing a redirected `_escaped_fragment_` crawl and just requests them from `https://seo.stockflare.com` in the old-fashioned non-AJAX format for instance.
+
+`https://seo.stockflare.com/stocks/WPP.L/detail/growth`
+
+So now the Phantom.js service is altered again to detect requests like this.  It contains a list of all the paths that we will need to be link-crawled and redirects Google to.
+
+`https://stockflare.com/#!/stocks/WPP.L/detail/growth`
+
+This restarts the whole cycle for the new link.
+
+## Phew job done.
+
+
+Mark Stratmann
+
+Stockflare
