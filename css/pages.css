@@ -1,0 +1,137 @@
+.pages-background
+{
+  background-image:url('../images/pages-background.png');
+  background-size:contain;
+  z-index:1;
+  padding:60px 0px;
+  background-repeat: no-repeat;
+}
+
+.pages-background .pages-banner
+{
+  margin:auto;
+  margin-bottom:50px;
+}
+
+.option-block
+{
+  border:1px solid #DDE2E8;
+  background:#fff;
+  padding:50px;
+}
+
+.option-block .image-container
+{
+  width:60px;
+  height:60px;
+  background-size:contain;
+  margin:auto;
+  margin-bottom:30px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.image-container.developer
+{
+  background-image:url('../images/icon-developer.png');
+}
+
+.image-container.playground
+{
+  background-image:url('../images/icon-playground.png');
+}
+
+.image-container.faq
+{
+  background-image:url('../images/icon-faq.png');
+}
+
+.image-container.academy
+{
+  background-image:url('../images/icon-academy.png');
+}
+
+.image-container.about
+{
+  background-image:url('../images/icon-about.png');
+}
+
+.image-container.blog
+{
+  background-image:url('../images/icon-blog.png');
+}
+
+.image-container.quotes
+{
+  background-image:url('../images/icon-quotes.png');
+}
+
+.image-container.contact
+{
+  background-image:url('../images/icon-contact.png');
+}
+
+.image-container.press
+{
+  background-image:url('../images/icon-press.png');
+}
+
+.image-container.investor
+{
+  background-image:url('../images/icon-investor.png');
+}
+
+.image-container.data
+{
+  background-image:url('../images/icon-data.png');
+}
+
+.image-container.jobs
+{
+  background-image:url('../images/icon-jobs.png');
+}
+
+.image-container.books
+{
+  background-image:url('../images/icon-books.png');
+}
+
+.image-container.terms
+{
+  background-image:url('../images/icon-terms.png');
+}
+
+.image-container.privacy
+{
+  background-image:url('../images/icon-privacy.png');
+}
+
+/* START OF PRESS ROOM STYLES */
+
+.mission-statement
+{
+  background-image:url('../images/background-mission.jpg');
+  background-size:cover;
+  margin-bottom:30px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding:120px 120px;
+}
+
+.mission-statement h2
+{
+  color:#fff;
+}
+
+.press-widget
+{
+  background:#DDE2E8;
+  padding:50px;
+}
+
+/* INACTIVE MODE */
+
+.inactive
+{
+  opacity:0.4;
+}
