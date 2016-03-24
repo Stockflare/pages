@@ -1,0 +1,22 @@
+language: ruby
+rvm:
+- 2.2.2
+before_script: gem install jekyll
+script: jekyll build --destination out
+notifications:
+  flowdock:
+    secure: "DeiwJE4sqMYiafNMFY8WMN3oO5xdU1ZIv8WyL6WyAy+BmbTT9ztyjkE7jdPc0rsfZjTgOAXFdHrZCo5TQmoEPPNfqVjidrkI+7ZV7I1MaIAHl6IGu4reyPT7UpvyFg0wAU4C0WE6u+sA2kxyBj7eHFzGl5IjycSobNJDbVrBNzo="
+deploy:
+  provider: s3
+  bucket: pages.stockflare.com
+  skip_cleanup: true
+  local-dir: out
+  edge: true
+  region: us-east-1
+  endpoint: s3-us-east-1.amazonaws.com
+  on:
+    branch: master
+  access_key_id:
+    secure: "GduzCrOm91GBoFNEpboB7KWrkxnhV1CLXTu5wFiFA9gZ9iLNxFXuZstsDYqQQvD0vXJZQ+GlXLFMO8A8IUXTePB0CFAjb6LKySL9BX21ohAoY+O6omTTh/ALzUnrS2PxCYPyf1NMwqiT0lY3AgHf65LCYmaH9JvkZpkJUxYIEQ4="
+  secret_access_key:
+    secure: "SEJXDVGTxO140xZMMlKjJzRy9XYpnpu8kQ9hZ3yLBn9n9/fxfV4M2A7pCbJcwodd4KMpjmYQKJXmiXL5PedcyUSP3t0UoPBBPq3wIiEKQ4Ou2pVH02CSrwVLpZ7EfaI+pIikJRTg2BiXXbZTmg0yrvateYeetfjRSrvhCgFC13I="
