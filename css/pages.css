@@ -36,6 +36,12 @@
   background-image:url('../images/icon-developer.png');
 }
 
+.image-container.widget
+{
+  background-image:url('../images/icon-widget.png');
+  border:0px;
+}
+
 .image-container.playground
 {
   background-image:url('../images/icon-playground.png');
