@@ -40,9 +40,19 @@
   font-weight: 600;
 }
 
-iframe {
+iframe, .iframe-spinner {
   width: 100%;
   height: 800px;
+}
+
+.iframe {
+  display: none;
+}
+
+.iframe-spinner {
+  .spinner {
+    margin: 380px auto;
+  }
 }
 
 .code-header {

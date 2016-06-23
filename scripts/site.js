@@ -3,13 +3,25 @@ $(document).ready(function() {
     $('header').toggleClass('revealed');
   });
 
+  var $iframeSpinner = $('.iframe-spinner');
+  var $iframe = $('.iframe');
+
+  window.onIframeLoad = function() {
+    $iframeSpinner.fadeOut(function() {
+      $iframe.fadeIn();
+    });
+  }
+
   function generateIframe(ric) {
     var src = 'https://widget-api.stockflare.com/?ric=' + ric;
-    var iframe = '<iframe height="800" class="widget" src="' + src + '"></iframe>'
+    var iframe = '<iframe height="800" class="widget" src="' + src + '" onLoad="onIframeLoad()"></iframe>'
     var code = '<iframe height="800" src="' + src + '"></iframe>'
-    $('.iframe')
-      .html(iframe)
-      .show();
+
+    $iframe
+      .css('display', 'none')
+      .html(iframe);
+
+    $iframeSpinner.css('display', 'block');
 
     $('.code').text(code);
     $('pre code').each(function(i, block) {
@@ -27,7 +39,7 @@ $(document).ready(function() {
     term: ''
   };
 
-  var $spinner = $('.spinner');
+  var $spinner = $('.search-spinner');
 
   $('.widget-search').autocomplete({
     serviceUrl: 'https://api.stockflare.com/search',
@@ -39,7 +51,8 @@ $(document).ready(function() {
     transformResult: function(response) {
       return {
         suggestions: $.map(response, function(item) {
-            return { value: item.short_name, data: item.ric };
+          var display = item.short_name + ' (' + item.ric.toUpperCase() + ')';
+          return { value: display, data: item.ric };
         })
       };
     },
