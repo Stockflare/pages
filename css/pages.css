@@ -112,6 +112,10 @@
   background-image:url('../images/icon-privacy.png');
 }
 
+.image-container.research
+{
+  background-image:url('../images/icon-research.png');
+}
 /* START OF PRESS ROOM STYLES */
 
 .mission-statement
