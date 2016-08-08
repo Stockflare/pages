@@ -116,6 +116,6 @@ Subscribers and registered users can update their Personal Information online by
 
 ### 8. CONTACT US
 
-If you have questions about this Privacy Policy, please contact us at [privacy@stockflare.com](privacy@stockflare.com).
+If you have questions about this Privacy Policy, please contact us at [privacy@stockflare.com](mailto:privacy@stockflare.com).
 
 We ask that you not disclose any sensitive Personal Information (e.g. social security numbers, information related to racial or ethnic origin, political opinions, religion or other beliefs, health, criminal background or trade union membership) when contacting us.
