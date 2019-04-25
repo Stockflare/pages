@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.2.2
+- 2.4.5
 before_script: gem install jekyll
 script: jekyll build --destination out
 notifications:
@@ -13,7 +13,7 @@ deploy:
   local-dir: out
   edge: true
   region: us-east-1
-  endpoint: s3-us-east-1.amazonaws.com
+  endpoint: s3.us-east-1.amazonaws.com
   on:
     branch: master
   access_key_id:
